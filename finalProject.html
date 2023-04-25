@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB-115 Final Project</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <div class="banner">
+                    <h1>Christen Monroe</h1>
+                    <h3>WEB-115 Section 0002</h3>
+                    <p>Build Your Resume</p>
+                </div>
+            </div>    
+            <div class="form-container">
+                <form name="form1" id="resumeForm">
+
+                    <h4>Personal Information</h4>
+                            <br>
+                    <!-- Background Information  -->
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" class="name" placeholder="Your Full Name"><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="text" id="email" name="email" class="email" placeholder="your@email.com"><br>
+
+                        <label for="address">Address</label><br>
+                        <input type="text" id="address" name="address" class="email" placeholder="1234 Street Name"><br>
+
+                        <div class="location">
+                            <span>
+                                <label for="city">City</label><br>
+                                <input type="text" id="city" name="city" class="area" placeholder="City"><br>
+                            </span>
+
+                            <span>
+                                <label for="state">State</label><br>
+                                <input type="text" id="state" name="state" class="area" placeholder="State"><br>
+                            </span>
+
+                            <span>
+                                <label for="state">Zip Code</label><br>
+                                <input type="text" id="zip" name="zip" class="area" placeholder="Zipcode"><br>
+                            </span>
+                        </div>
+                        <br>
+
+                        <label for="webLink">Website Link</label><br>
+                        <input type="text" id="webLink" name="webLink" class="link" placeholder="Portfolio Link">
+                        <br>
+
+                        <label for="twitLink">Twitter Link</label><br>
+                        <input type="text" id="twitLink" name="twitLink" class="link" placeholder="Twitter Link"><br>
+
+                        <label for="gitLink">Github Link</label><br>
+                        <input type="text" id="gitLink" name="gitLink" class="link" placeholder="Github Link"><br>
+
+                        <!-- Personal Summary -->
+                        <label for="summary">Enter your personal summary:</label><br>
+                        <textarea name="summary" id="summary" class="summary"></textarea>
+                        <br><br> 
+
+                    <div class="line-break"></div>
+                    <br>
+
+                    <!-- Work Experience -->
+
+                    <h4>Work Experience</h4>
+                            <br>
+                        <p>Please Enter Your Experience Information</p>
+                        <br>
+                        <label for="recentComp">Company Name:</label><br>
+                        <input type="text" id="recentComp" name="recentComp" class="name" placeholder="Company Name"><br>
+
+                        <label for="jobTitle">Job Title:</label><br>
+                        <input type="text" id="jobTitle" name="jobTitle" class="name" placeholder="Job Title"><br>
+
+                        <div class="dates">
+                            <span>
+                                <label for="jobStart">Start date:</label>
+                                <br>
+                                <input type="date" id="jobStart" name="jobStart" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                <br>
+                            </span>
+
+                            <span>
+                                <label for="jobEnd">End date:</label>
+                                <br>
+                                <input type="date" id="jobEnd" name="jobEnd" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                <br>
+                            </span>
+                        </div>
+                        <br>
+                        <!-- Responsiblities -->
+                        <label for="respons1">Job responsibilities:</label><br>
+                        <textarea name="summary" id="respons1" class="respons1"></textarea>
+                        <br><br>
+
+                    <div class="line-break"></div>
+                    <br>
+                    <!-- Second Work Experience -->
+
+                        <label for="recentComp2">Company Name:</label><br>
+                        <input type="text" id="recentComp2" name="second company-name" class="name" placeholder="Company Name"><br>
+
+                        <label for="jobTitle2">Job Title:</label><br>
+                        <input type="text" id="jobTitle2" name="recent jobTitle2" class="name" placeholder="Job Title"><br>
+
+                        <div class="div">
+                            <span>
+                                <label for="jobStart2">Start date:</label>
+                                <br>
+                                <input type="date" id="jobStart2" name="job-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                <br>
+                            </span>
+
+                            <span>
+                                <label for="jobEnd2">End date:</label>
+                                <br>
+                                <input type="date" id="jobEnd2" name="job-end" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                <br>
+                            </span>
+                        </div>
+                        
+                        <!-- Responsiblities -->
+                        <label for="respons2">Job responsibilities:</label><br>
+                        <textarea name="summary" id="respons2" class="respons1"></textarea>
+                        <br><br> 
+
+                        <div class="line-break"></div>
+                        <br>
+                        
+                        <!-- Third Work Experience -->
+
+                            <label for="recentComp3">Company Name:</label><br>
+                            <input type="text" id="recentComp3" name="third company-name" class="name" placeholder="Company Name"><br>
+
+                            <label for="jobTitle3">Job Title:</label><br>
+                            <input type="text" id="jobTitle3" name="jobTitle3" class="name" placeholder="Job Title"><br>
+
+                            <div class="dates">
+                                <span>
+                                    <label for="jobStart3">Start date:</label>
+                                    <br>
+                                    <input type="date" id="jobStart3" name="job-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                    <br>
+                                </span>
+
+                                <span>
+                                    <label for="jobEnd3">End date:</label>
+                                    <br>
+                                    <input type="date" id="jobEnd3" name="job-end" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                    <br>
+                                </span>
+                            </div>
+                            <br>
+                            
+                            <!-- Responsiblities -->
+                            <label for="respons3">Job responsibilities:</label><br>
+                            <textarea name="summary" id="respons3" class="respons3"></textarea>
+                            <br><br> 
+
+                        <div class="line-break"></div>
+                        <br>
+
+                        <!-- Skills -->
+                        <h4>Skills</h4>
+                            <br>
+
+                            <label for="designSkills">Design skills</label><br>
+                            <textarea name="summary" id="designSkills" class="designSkills"></textarea>
+                            <br><br> 
+
+                            <label for="writingSkills">Writing skills</label><br>
+                            <textarea name="summary" id="writingSkills" class="writingSkills"></textarea>
+                            <br><br> 
+
+                            <label for="ethicSkills">Work Ethic skills</label><br>
+                            <textarea name="summary" id="ethicSkills" class="ethicSkills"></textarea>
+                            <br><br> 
+
+                            <div class="line-break"></div>
+                        <br>
+
+                        <!-- Languages-->
+                        <h4>Languages</h4>
+                            <br>
+
+                            <label for="backEnd">Back End Languages</label><br>
+                            <textarea name="summary" id="backEnd" class="backEnd"></textarea>
+                            <br><br> 
+
+                            <label for="frontEnd">Front End Languages</label><br>
+                            <textarea name="summary" id="frontEnd" class="frontEnd"></textarea>
+                            <br><br> 
+
+                            <div class="line-break"></div>
+                        <br>
+                        <!-- Education -->
+                            <h4>Education</h4>
+                            <br>
+                                <label for="school1">School Name:</label><br>
+                                <input type="text" id="school1" name="school1" placeholder="School Name"><br>
+
+                                <label for="degree1">Degree:</label><br>
+                                <input type="text" id="degree1" name="degree1" placeholder="Degree Title"><br>
+
+                                <div class="dates">
+                                    <span>
+                                        <label for="schoolStart1">Start date:</label>
+                                        <br>
+                                        <input type="date" id="schoolStart1" name="schoolStart1" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                        <br>
+                                    </span>
+
+                                    <span>
+                                        <label for="schoolEnd1">End date:</label>
+                                        <br>
+                                        <input type="date" id="schoolEnd1" name="schoolEnd1" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                        <br>
+                                    </span>
+                                </div>
+
+                        <div class="line-break"></div>
+                        <br>
+                        <label for="school2">School Name:</label>
+                        <br>
+                                <input type="text" id="school2" name="school2" placeholder="School Name"><br>
+
+                                <label for="degree2">Degree:</label><br>
+                                <input type="text" id="degree2" name="degree2" placeholder="Degree Title"><br>
+
+                                <div class="dates">
+                                    <span>
+                                        <label for="schoolStart2">Start date:</label>
+                                        <br>
+                                        <input type="date" id="schoolStart2" name="schoolStart2" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                        <br>
+                                    </span>
+
+                                    <span>
+                                        <label for="schoolEnd2">End date:</label>
+                                        <br>
+                                        <input type="date" id="schoolEnd2" name="schoolEnd2" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+                                        <br>
+                                    </span>
+                                </div>
+                                <div class="line-break"></div>
+                                <br>
+                        <!-- Skills -->
+                        <h4>References</h4>
+                            <br>
+
+                            <label for="references">Business References</label><br>
+                            <textarea name="summary" id="references" class="references"></textarea>
+                            <br><br> 
+
+                            <div class="line-break"></div>
+                        <br>
+                                    
+                  </form>
+                  
+            </div>
+            <div class="bottom-container">
+                <input type="submit" value="Create Resume" id="submit1" class="submit-btn">
+                <br><br>    
+            </div>
+            <p id="result"></p> 
+        </section>
+    </main>
+
+
+    <script type="text/javascript" src="js/projectJS.js"></script>
+</body>
+</html>
